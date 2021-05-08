@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+
+.card:hover {
+    filter: opacity(.5);
+    transition: 1s;   
+    
+}
+
+img {
+    height: 40vh;
+}
+
+#img-angular {
+    border: 1px solid grey;
+    background-color: rgb(22, 21, 21);
+}
+
+// .centrar {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content:space-around
+// }

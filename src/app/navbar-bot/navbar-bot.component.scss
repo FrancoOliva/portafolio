@@ -1,0 +1,28 @@
+nav{
+    background-image: linear-gradient(to right, #212529,  rgb(122, 34, 163),rgb(37, 196, 135),  rgb(37, 151, 196),rgb(122, 34, 163), #212529);
+    background-size: 400%;
+    animation: fondocambiante 15s infinite;
+}
+
+
+@keyframes fondocambiante {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.centrar {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}

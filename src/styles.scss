@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*EJ -> font-family: 'Indie Flower', cursive;*/
+
+body {
+    background-image: linear-gradient(to right, #e7ebee, #5c8bb1, #e7ebee);
+    background-size: 400%;
+    animation: fondocambiante 15s infinite;
+}
+
+@keyframes fondocambiante {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.divisor {
+    border-bottom: 1px solid grey;
+    width: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.margenes {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.marg5 {
+    margin-top: 5rem;
+}
