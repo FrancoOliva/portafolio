@@ -14,7 +14,7 @@ export class NavbarBotComponent implements OnInit {
 
   ngOnInit(): void {
 
-    console.log(this.date);
+    
   }
 
 }
